@@ -3087,7 +3087,9 @@ A single split data is returned. A split contains the following keys...
 }
 ```
 
-# Retrieve Number of Open Positions (Stock Popularity on Robinhood)
+# Retrieve Number of Open Positions 
+
+This returns the number of people who own this instrument on Robinhood. 
 
 **Method**
 
