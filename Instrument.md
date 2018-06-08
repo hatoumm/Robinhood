@@ -640,7 +640,7 @@ This returns the number of people who own this instrument on Robinhood.
 
 | URI                                                             | HTTP Method | Authentication |
 |-----------------------------------------------------------------|-------------|----------------|
-| api.robinhood.com/instruments/{instrument_id}/popularity        | GET         | No             |
+| api.robinhood.com/instruments/{instrument_id}/popularity/        | GET         | No             |
 
 **Fields**
 
