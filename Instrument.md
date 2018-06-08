@@ -3086,3 +3086,31 @@ A single split data is returned. A split contains the following keys...
    "multiplier": "1.00000000"
 }
 ```
+
+# Retrieve Number of Open Positions (Stock Popularity on Robinhood)
+
+**Method**
+
+| URI                                                             | HTTP Method | Authentication |
+|-----------------------------------------------------------------|-------------|----------------|
+| api.robinhood.com/instruments/{instrument_id}/popularity        | GET         | No             |
+
+**Fields**
+
+N/A
+
+**Request sample**
+
+```
+curl -v https://api.robinhood.com/instruments/4399c823-043c-4c5f-b41e-3deb9e76f5b0/popularity/ \
+   -H "Accept: application/json"
+```
+
+**Response sample**
+
+```
+{
+   "instrument": "https:\/\/api.robinhood.com\/instruments\/4399c823-043c-4c5f-b41e-3deb9e76f5b0\/",
+   "num_open_positions": 2367
+}
+```
