@@ -5,6 +5,7 @@
 - Get Top Movers on the S&P500	GET /midlands/movers/sp500/?direction=['up' or 'down']
 - Get News						GET /midlands/news/?symbol=$symbol
 - Get Analyst Ratings      GET /midlands/ratings/{instrument_id}/
+- Get Earnings Report      GET /marketdata/earnings/?instrument=/instruments/{instrument_id}/
 
 # Cards
 
